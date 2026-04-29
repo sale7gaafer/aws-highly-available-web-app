@@ -27,16 +27,18 @@ User → Load Balancer → EC2 Instances → S3
 5. Created S3 bucket
 
 ## Screenshots
-<img width="1908" height="874" alt="Screenshot 2026-04-30 003615" src="https://github.com/user-attachments/assets/2d6577b3-ad88-4b0f-a962-e7989fdf13bf" />
-<img width="1919" height="866" alt="Screenshot 2026-04-30 003510" src="https://github.com/user-attachments/assets/a1ae9905-0aba-4aa5-bc37-e5a526d20772" />
-<img width="1911" height="869" alt="Screenshot 2026-04-30 003410" src="https://github.com/user-attachments/assets/ba8a63e2-71bc-4c91-a6ab-4c5d53c2c284" />
-<img width="1918" height="866" alt="Screenshot 2026-04-30 010731" src="https://github.com/user-attachments/assets/ae62f102-587a-4bcf-b292-7090cd05c6b5" />
-<img width="1918" height="859" alt="Screenshot 2026-04-30 010706" src="https://github.com/user-attachments/assets/c2f70e05-4d1f-4777-a1dd-170c49b7aa17" />
-<img width="1919" height="858" alt="Screenshot 2026-04-30 010656" src="https://github.com/user-attachments/assets/6683cdb6-41d6-4856-b6b6-33398ed57b14" />
-<img width="1916" height="858" alt="Screenshot 2026-04-30 003649" src="https://github.com/user-attachments/assets/424743a9-5b22-4740-9a3e-534b12ead19b" />
-<img width="1916" height="883" alt="Screenshot 2026-04-30 003355" src="https://github.com/user-attachments/assets/85b61d3d-75a5-4249-9f2c-2481c481ac08" />
+<img width="1896" height="890" alt="1" src="https://github.com/user-attachments/assets/b00c947e-1169-4cf3-afe5-1c990c216077" />
+<img width="1916" height="883" alt="2" src="https://github.com/user-attachments/assets/de927516-df44-4687-bad1-47031805e0fd" />
+<img width="1911" height="869" alt="3" src="https://github.com/user-attachments/assets/596951ac-0d3a-4478-82a3-29ce826c2c0b" />
+<img width="1908" height="874" alt="4" src="https://github.com/user-attachments/assets/92fce52f-30c2-4a20-a488-9b0905fc0b47" />
+<img width="1916" height="858" alt="5" src="https://github.com/user-attachments/assets/d58b335a-cf42-439b-beef-1af6ec679bf5" />
+<img width="1919" height="866" alt="6" src="https://github.com/user-attachments/assets/28520607-4c57-4f58-9c7c-321e3a464bee" />
+<img width="1918" height="866" alt="7" src="https://github.com/user-attachments/assets/cc5a3a79-1b0e-462c-a39f-0c3610876d88" />
+<img width="1918" height="859" alt="8" src="https://github.com/user-attachments/assets/742d04b9-6003-4fd2-8212-ca78905db0ff" />
+<img width="1919" height="858" alt="9" src="https://github.com/user-attachments/assets/9ab9a6da-9993-4747-934f-ac3d7691fe15" />
+
 
 
 
 ## Author
-Saleh
+Saleh gaafer
