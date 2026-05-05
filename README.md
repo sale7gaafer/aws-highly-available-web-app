@@ -1,44 +1,73 @@
-# AWS Highly Available Web App
+# AWS Highly Available Web Application
 
-## Overview
-This project demonstrates deploying a highly available web application on AWS.
+## 📌 Overview
+This project demonstrates deploying a highly available and scalable web application on AWS using core cloud services.
 
-## Services Used
-- EC2
-- VPC
-- Application Load Balancer
-- S3
-- IAM
+The architecture ensures reliability, load distribution, and secure network configuration.
 
-## Architecture
-User → Load Balancer → EC2 Instances → S3
+---
 
-## Features
+##  Architecture
+User → Application Load Balancer → EC2 Instances → S3
+
+---
+
+## 🛠️ Services Used
+- Amazon EC2
+- Amazon VPC
+- Application Load Balancer (ALB)
+- Amazon S3
+- IAM (Identity and Access Management)
+
+---
+
+## ⚙️ Implementation Steps
+
+### 1. Network Setup
+- Created VPC with public subnets
+- Configured routing and internet access
+<img width="1896" height="890" alt="vpc" src="https://github.com/user-attachments/assets/b5db40cf-7bc4-4760-bd58-9933d04d1e9e" />
+
+### 2. Compute Setup
+- Launched multiple EC2 instances
+- Installed and configured Apache Web Server
+<img width="1916" height="883" alt="instance1" src="https://github.com/user-attachments/assets/29093bb8-2413-428c-acca-30cb7fd7f7c3" />
+<img width="1911" height="869" alt="instance2" src="https://github.com/user-attachments/assets/e77af3f7-8ab6-48e0-ae95-ad0835ad2a94" />
+
+### 3. Load Balancing
+- Configured Application Load Balancer
+- Distributed traffic across EC2 instances
+<img width="1908" height="874" alt="load-balancer" src="https://github.com/user-attachments/assets/aa99ec2e-ba33-4c3a-8c4d-925d928f281f" />
+<img width="1916" height="858" alt="target-group" src="https://github.com/user-attachments/assets/a6ada6e6-65aa-4c54-bfb9-910ad007914d" />
+
+### 4. Storage
+- Created S3 bucket for static content
+<img width="1918" height="866" alt="s3" src="https://github.com/user-attachments/assets/ad5c16a4-fa3f-4964-bf1e-111b240c739f" />
+
+### 5. Security
+- Configured Security Groups
+- Managed access using IAM roles
+<img width="1919" height="866" alt="security-group" src="https://github.com/user-attachments/assets/2dc56fe5-589f-4f14-8606-331f665d9ae8" />
+
+## 🌐 Application Output
+
+- Page 1
+<img width="1918" height="859" alt="server1" src="https://github.com/user-attachments/assets/73151eab-15c4-421e-81bf-380320eabb64" />
+
+
+- Page 2
+<img width="1919" height="858" alt="server2" src="https://github.com/user-attachments/assets/b15e652c-7a93-4681-a216-885862124b54" />
+
+---
+
+## 🎯 Features
 - High availability using multiple EC2 instances
-- Load balancing traffic
-- Secure network using VPC
-- Static storage using S3
+- Load balancing for traffic distribution
+- Secure network isolation with VPC
+- Scalable architecture
+- Static file storage using S3
 
-## Steps
-1. Created VPC and subnets
-2. Launched EC2 instances
-3. Installed Apache web server
-4. Configured Load Balancer
-5. Created S3 bucket
+---
 
-## Screenshots
-<img width="1896" height="890" alt="1" src="https://github.com/user-attachments/assets/b00c947e-1169-4cf3-afe5-1c990c216077" />
-<img width="1916" height="883" alt="2" src="https://github.com/user-attachments/assets/de927516-df44-4687-bad1-47031805e0fd" />
-<img width="1911" height="869" alt="3" src="https://github.com/user-attachments/assets/596951ac-0d3a-4478-82a3-29ce826c2c0b" />
-<img width="1908" height="874" alt="4" src="https://github.com/user-attachments/assets/92fce52f-30c2-4a20-a488-9b0905fc0b47" />
-<img width="1916" height="858" alt="5" src="https://github.com/user-attachments/assets/d58b335a-cf42-439b-beef-1af6ec679bf5" />
-<img width="1919" height="866" alt="6" src="https://github.com/user-attachments/assets/28520607-4c57-4f58-9c7c-321e3a464bee" />
-<img width="1918" height="866" alt="7" src="https://github.com/user-attachments/assets/cc5a3a79-1b0e-462c-a39f-0c3610876d88" />
-<img width="1918" height="859" alt="8" src="https://github.com/user-attachments/assets/742d04b9-6003-4fd2-8212-ca78905db0ff" />
-<img width="1919" height="858" alt="9" src="https://github.com/user-attachments/assets/9ab9a6da-9993-4747-934f-ac3d7691fe15" />
-
-
-
-
-## Author
-Saleh gaafer
+## 🚀 Conclusion
+This project demonstrates the deployment of a scalable and highly available web application using AWS cloud services.
