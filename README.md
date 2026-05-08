@@ -47,7 +47,8 @@ User → Application Load Balancer → EC2 Instances → S3
 ### 5. Security
 - Configured Security Groups
 - Managed access using IAM roles
-<img width="1919" height="866" alt="security-group" src="https://github.com/user-attachments/assets/2dc56fe5-589f-4f14-8606-331f665d9ae8" />
+<img width="1523" height="688" alt="security group" src="https://github.com/user-attachments/assets/13891ead-194f-4135-a858-46f446085afc" />
+
 
 ## 🌐 Application Output
 
