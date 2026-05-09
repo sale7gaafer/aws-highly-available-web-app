@@ -1,6 +1,6 @@
 # AWS Highly Available Web Application
 
-## 📌 Overview
+##  Overview
 This project demonstrates deploying a highly available and scalable web application on AWS using core cloud services.
 
 The architecture ensures reliability, load distribution, and secure network configuration.
@@ -12,7 +12,7 @@ User → Application Load Balancer → EC2 Instances → S3
 
 ---
 
-## 🛠️ Services Used
+##  Services Used
 - Amazon EC2
 - Amazon VPC
 - Application Load Balancer (ALB)
@@ -21,7 +21,7 @@ User → Application Load Balancer → EC2 Instances → S3
 
 ---
 
-## ⚙️ Implementation Steps
+##  Implementation Steps
 
 ### 1. Network Setup
 - Created VPC with public subnets
@@ -50,7 +50,7 @@ User → Application Load Balancer → EC2 Instances → S3
 <img width="1523" height="688" alt="security group" src="https://github.com/user-attachments/assets/13891ead-194f-4135-a858-46f446085afc" />
 
 
-## 🌐 Application Output
+##  Application Output
 
 - Page 1
 <img width="1918" height="859" alt="server1" src="https://github.com/user-attachments/assets/73151eab-15c4-421e-81bf-380320eabb64" />
@@ -61,7 +61,7 @@ User → Application Load Balancer → EC2 Instances → S3
 
 ---
 
-## 🎯 Features
+##  Features
 - High availability using multiple EC2 instances
 - Load balancing for traffic distribution
 - Secure network isolation with VPC
@@ -70,5 +70,5 @@ User → Application Load Balancer → EC2 Instances → S3
 
 ---
 
-## 🚀 Conclusion
+##  Conclusion
 This project demonstrates the deployment of a scalable and highly available web application using AWS cloud services.
