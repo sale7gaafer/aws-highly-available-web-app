@@ -1,4 +1,5 @@
-# AWS Highly Available Web Application
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazon-ec2&logoColor=white)
 
 ##  Overview
 This project demonstrates deploying a highly available and scalable web application on AWS using core cloud services.
